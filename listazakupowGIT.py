@@ -1,6 +1,7 @@
 shop = {
 "rowerowy":["opony","oświetlenie do roweru","kask"],
-"decathlon":["rękawiczki", "kask"]
+"decathlon":["rękawiczki", "kask"],
+"kiosk":["napój"]
 }
 print("Lista zakupów")
 for items in shop:
