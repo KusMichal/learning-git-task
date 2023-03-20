@@ -1,9 +1,10 @@
 shop = {
 "rowerowy":["opony","oświetlenie do roweru","kask"],
-"decathlon":["rękawiczki", "kask"]
+"decathlon":["rękawiczki", "kask"],
+"kiosk":["napój"]
 }
 print("Lista zakupów")
 for items in shop:
     print(f'Idę do {items.upper()} kupuję tu: {shop[items]}')
-x=len(shop["rowerowy"])+ len(shop["decathlon"])
+x=len(shop["rowerowy"])+ len(shop["decathlon"])+len(shop["kiosk"])
 print(f'W Sumie kupiłem {x} produktów')
